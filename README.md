@@ -14,6 +14,29 @@ subject to the following conditions:
 - Specified parity for each $$a_i$$ (even or odd)
 - Includes Lagrange optimization for all-even cases
 
+## Jacobi’s Four-Square Theorem
+
+This algorithm is closely related to **Jacobi’s classical four-square theorem**, which gives an exact formula for the number of representations of a natural number as a sum of four squares.
+
+Jacobi proved that the number of representations of an integer *n* can be expressed as:
+
+$$
+r_4(n) = 8 \sum_{\substack{d \mid n \\ 4 \nmid d}} d
+$$
+
+In other words, to count how many ways *n* can be written as a sum of four squares, you sum over all divisors of *n* that are **not** multiples of 4, multiply each divisor by 8, and that’s the result.
+
+This algorithm can compute **explicit representations** — not just the count — making it useful in computational research related to modular forms and number theory.
+
+---
+
+## Modular Forms and Connections
+
+**Modular forms** play a central role in modern number theory.  
+They appear in areas such as the proof of **Fermat’s Last Theorem** and the study of **elliptic curves**.
+
+The four-square problem is deeply connected to **theta functions**, which are among the earliest and most fundamental examples of modular forms.  
+By generating concrete four-square decompositions, this algorithm contributes to the computational exploration of modular and theta function structures.
 
 ## Key Features
 
