@@ -20,6 +20,7 @@ This algorithm is closely related to **Jacobi’s classical four-square theorem*
 
 Jacobi proved that the number of representations of an integer *n* can be expressed as:
 
+
 $$
 r_4(n) = 8 \sum_{\substack{d \mid n \\ d \not\equiv 0 \pmod{4}}} d
 $$
