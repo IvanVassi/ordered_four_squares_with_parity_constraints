@@ -21,8 +21,9 @@ This algorithm is closely related to **Jacobi’s classical four-square theorem*
 Jacobi proved that the number of representations of an integer *n* can be expressed as:
 
 
+
 $$
-r_4(n)=8\sum\limits_{\substack{d\mid n\ d\neq 0\ \bmod\ 4}} d
+r_4(n) = 8 \sum\limits_{\substack{d \mid n \\ 4 \nmid d}} d
 $$
 
 In other words, to count how many ways *n* can be written as a sum of four squares, you sum over all divisors of *n* that are **not** multiples of 4, multiply each divisor by 8, and that’s the result.
