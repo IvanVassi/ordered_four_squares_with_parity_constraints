@@ -10,8 +10,8 @@ $$n = a_1^2 + a_2^2 + a_3^2 + a_4^2$$
 
 subject to the following conditions:
 
-- Strict ordering: \$ a_1 > a_2 > a_3 > a_4 \geq 0 \$
-- Specified parity for each \$ a_i \$ (even or odd)
+- Strict ordering: $$a_1 > a_2 > a_3 > a_4 \geq 0 $$
+- Specified parity for each $$a_i$$ (even or odd)
 - Includes Lagrange optimization for all-even cases
 
 
@@ -20,7 +20,7 @@ subject to the following conditions:
 ### Search Algorithm
 
 - Descending search with efficient branch pruning
-- Modular arithmetic (mod \$ 2^k \$) for fast reachability checks
+- Modular arithmetic (mod $$2^k$$) for fast reachability checks
 - Precomputed suffix sums of quadratic residues
 - Reduction via division by powers of 4 for fully-even solutions
 
@@ -73,7 +73,7 @@ else:
 
 ## Theoretical Foundation
 
-Based on Lagrange's four-square theorem with additional constraints. Uses reduction for even solutions: if all \$ a_i \$ are even, then \$ n \equiv 0 \pmod{4} \$, and we can factor out powers of 4.
+Based on Lagrange's four-square theorem with additional constraints. Uses reduction for even solutions: if all $$a_i$$ are even, then  $$n \equiv 0 \pmod{4}$$, and we can factor out powers of 4.
 
 ## License
 
