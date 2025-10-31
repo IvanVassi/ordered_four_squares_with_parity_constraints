@@ -6,7 +6,7 @@ Efficient solution for representing a natural number as a sum of four squares wi
 
 The code finds solutions to the equation:
 
-\$ n = a_1^2 + a_2^2 + a_3^2 + a_4^2 \$
+$$n = a_1^2 + a_2^2 + a_3^2 + a_4^2$$
 
 subject to the following conditions:
 
