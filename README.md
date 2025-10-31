@@ -22,7 +22,7 @@ Jacobi proved that the number of representations of an integer *n* can be expres
 
 
 $$
-r_4(n) = 8 \sum_{\substack{d \mid n \\d \not\equiv 0 \pmod{4}}} d
+r_4(n)=8\sum\limits_{\substack{d\mid n\ d\neq 0\ \bmod\ 4}} d
 $$
 
 In other words, to count how many ways *n* can be written as a sum of four squares, you sum over all divisors of *n* that are **not** multiples of 4, multiply each divisor by 8, and that’s the result.
